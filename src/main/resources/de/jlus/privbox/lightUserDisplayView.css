@@ -1,0 +1,71 @@
+#root {
+    -fx-background-color: white;
+}
+
+#date_time_label {
+    -fx-text-fill: '#808080';
+    -fx-font: bold 40pt 'serif';
+}
+
+#logged_in_heading {
+    -fx-text-fill: black;
+    -fx-font-size: 20pt;
+}
+
+#logged_in_label {
+    -fx-text-fill: black;
+    -fx-font: bold 40pt 'serif';
+    -fx-effect: innershadow(gaussian, blue, 5, 0.5, 0, 0);
+}
+
+.progress-indicator  {
+    -fx-pref-height: 300px;
+    -fx-pref-width: 300px;
+    -fx-translate-y: 6pt;
+}
+
+
+.progress-indicator > .determinate-indicator > .indicator {
+    -fx-background-color: white, white, white, white;
+        /*-fx-box-border,
+        -fx-outer-border,
+        -fx-inner-border,
+        -fx-body-color;*/
+}
+
+.progress-indicator > .determinate-indicator > .percentage {
+    -fx-fill: none;
+    -fx-font-size: 12pt;
+}
+
+
+#progress_inner_circle {
+    -fx-fill: white;
+    -fx-effect: dropshadow(gaussian, red, 20, 0.5, 0, 0);
+}
+
+
+#active_web_login_label {
+    -fx-text-fill: black;
+    -fx-font-size: 28pt;
+}
+
+
+#next_alarm_heading {
+    -fx-text-fill: black;
+    -fx-font-size: 22pt;
+    -fx-underline: true;
+}
+
+
+#next_alarm_name {
+    -fx-text-fill: black;
+    -fx-font-size: 28pt;
+    -fx-font-weight: bold;
+}
+
+
+#next_alarm_trigger_in {
+    -fx-text-fill: '#707070';
+    -fx-font-size: 18pt;
+}
